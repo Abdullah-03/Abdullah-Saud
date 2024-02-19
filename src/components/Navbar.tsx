@@ -14,7 +14,7 @@ export default function Navbar() {
       >
         Abdullah Saud.
       </Link>
-      <div className="flex flex-row w-1/3 justify-between my-auto">
+      <div className="flex flex-row my-auto">
         <Link
           href="about"
           className={buttonVariants({ variant: "ghost", size: "sm" })}

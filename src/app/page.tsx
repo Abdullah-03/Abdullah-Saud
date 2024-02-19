@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import TypingEffect from "@/components/typingEffect";
 
 export default function Home() {
   return (
@@ -10,14 +12,26 @@ export default function Home() {
             <span className="text-blue-500 tracking-wider">Fullstack</span>{" "}
             Engineer
           </div>
+          <div className="text-4xl mt-5 -ml-24">
+            Powered by coffee and{" "}
+            <span className="absolute ml-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+              <TypingEffect />
+            </span>
+          </div>
+
           <div className="mt-12 text-lg">
             I&apos;m an undergrad senior studying computer science at FAST
             NUCES. I love building fullstack applications using Next.js, React,
-            Express and a SQL or NoSQL database depending on project
-            requirements. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Veritatis, at. Quod qui aperiam veritatis dolor vero sequi
-            sapiente, pariatur, tempora consequatur aliquid eligendi quisquam
-            perferendis quam unde, impedit labore magnam.
+            and Express. When I&apos;m not on the lookout for the next best JS{" "}
+            <a
+              href="https://dayssincelastjavascriptframework.com/"
+              className="underline text-blue-500"
+            >
+              framework
+            </a>{" "}
+            I spend my time writing learning RUST and WASM or writing a compiler
+            in Go. Currently working on a production android app using React
+            Native.
           </div>
         </div>
 
