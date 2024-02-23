@@ -8,18 +8,18 @@ export default function Home() {
       {/* Hero section */}
       <>
         <div className="flex flex-col text-center">
-          <div className="font-bold text-7xl md:text-8xl">
+          <div className="font-bold text-6xl md:text-8xl">
             <span className="text-blue-500 tracking-wider">Fullstack</span>{" "}
             Engineer
           </div>
-          <div className="-ml-24 text-2xl md:text-4xl mt-5 md:-ml-24">
+          <div className="-ml-24 text-xl md:text-4xl mt-5 md:-ml-24">
             Powered by coffee and{" "}
-            <span className="-mt-2 md:-mt-0 absolute ml-2 md:ml-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+            <span className="-mt-3 md:-mt-0 absolute ml-2 md:ml-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
               <TypingEffect />
             </span>
           </div>
 
-          <div className="mt-12 text-base md:text-lg px-4">
+          <div className="mt-12 text-base md:text-lg px-4 italic">
             I&apos;m an undergrad senior studying computer science at FAST
             NUCES. I love building fullstack applications using Next.js, React,
             and Express. When I&apos;m not on the lookout for the next best JS{" "}
@@ -29,9 +29,8 @@ export default function Home() {
             >
               framework
             </a>{" "}
-            I spend my time writing learning RUST and WASM or writing a compiler
-            in Go. Currently working on a production android app using React
-            Native.
+            I spend my time learning RUST and WASM or writing a compiler in Go.
+            Currently working on a production android app using React Native.
           </div>
         </div>
 
@@ -79,7 +78,7 @@ export default function Home() {
 
       <div className="flex flex-col mt-14 w-full items-center">
         <div className="font-bold text-6xl mb-14 underline">Projects</div>
-        <div className="flex flex-col max-w-[90%] md:max-w-full md:flex-row justify-between mb-14">
+        <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
           <div className="font-semibold flex flex-col mt-10">
             <div className="text-blue-500 text-4xl">Tanstack</div>
             <ul className="ml-2">
