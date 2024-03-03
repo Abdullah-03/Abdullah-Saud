@@ -1,6 +1,6 @@
-"use client";
 import Image from "next/image";
 import TypingEffect from "@/components/typingEffect";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
@@ -79,25 +79,31 @@ export default function Home() {
       <div className="flex flex-col mt-14 w-full items-center">
         <div className="font-bold text-6xl mb-14 underline">Projects</div>
         <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
-          <div className="font-semibold flex flex-col mt-10">
-            <div className="text-blue-500 text-4xl">Tanstack</div>
+          <div className="font-semibold flex flex-col mt-10 md:w-[50%]">
+            <div className="text-blue-500 text-4xl relative">LiTa<Badge variant="default" className="absolute left-14 bottom-8">Active Development</Badge></div>
+            <div className="my-4">LiTa is a <span className="text-blue-600">Li</span>fe <span className="text-blue-600">T</span>r<span className="text-blue-600">a</span>cking with a privacy first approach.
+            Life tracking involves tracking elements of your life ranging from habits such as reading to 
+            biodata such as steps taken and quality of sleep. In addition we also track user mood and in tandem
+            the aim of this app will be to use machine learning to figure out trends between collected data and
+             your well being. All data remains on your device with no online comunication with a server
+             so you can be sure your data is safe. Oh, and did I mention the best part? Its open source!</div>
             <ul className="ml-2">
               <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Frontend: Next.js, React, Redux
+                Frontend: React Native, Framer motion
               </li>
               <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Backend: Express, Prisma ORM, PostgreSQL
+                Backend: SQLite
               </li>
             </ul>
           </div>
-          <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2">
+          <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2 aspect-auto">
             <Image
-              src="/tanstack.png"
+              src="/phone-mockup.png"
               alt="its a me"
               quality={100}
-              width={1781}
-              height={1002}
-              className="rounded-md aspect-video w-[720px] shadow-2xl ring-1 ring-gray-900/10"
+              width={1480}
+              height={2740}
+              className="rounded-md w-[300px] shadow-2xl ring-1 ring-gray-900/10 m-auto"
             />
           </div>
         </div>
@@ -113,26 +119,26 @@ export default function Home() {
             />
           </div>
           <div className="font-semibold flex flex-col mt-10 text-right">
-            <div className="text-blue-500 text-4xl">Tanstack</div>
+            <div className="text-blue-500 text-4xl">Bookstore</div>
             <ul className="ml-2">
               <li className="border-r-2 border-zinc-400 pr-2 my-2">
-                Frontend: Next.js, React, Redux
+                Frontend: Alpine.js, HTMX
               </li>
               <li className="border-r-2 border-zinc-400 pr-2 my-2">
-                Backend: Express, Prisma ORM, PostgreSQL
+                Backend: Django, PostgreSQL
               </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
           <div className="font-semibold flex flex-col mt-10">
-            <div className="text-blue-500 text-4xl">Tanstack</div>
+            <div className="text-blue-500 text-4xl">Compiler</div>
             <ul className="ml-2">
               <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Frontend: Next.js, React, Redux
+                Roman Urdu Compiler
               </li>
               <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Backend: Express, Prisma ORM, PostgreSQL
+                Written in C++
               </li>
             </ul>
           </div>
