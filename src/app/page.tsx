@@ -29,7 +29,7 @@ export default function Home() {
             >
               framework
             </a>{" "}
-            I spend my time learning RUST and WASM or writing a compiler in Go.
+            I spend my time learning Go and building side projects using Python.
             Currently working on a production android app using React Native.
           </div>
         </div>
@@ -80,8 +80,8 @@ export default function Home() {
         <div className="font-bold text-6xl mb-14 underline">Projects</div>
         <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
           <div className="font-semibold flex flex-col mt-10 md:w-[50%]">
-            <div className="text-blue-500 text-4xl relative">LiTa<Badge variant="default" className="absolute left-14 bottom-8">Active Development</Badge></div>
-            <div className="my-4">LiTa is a <span className="text-blue-600">Li</span>fe <span className="text-blue-600">T</span>r<span className="text-blue-600">a</span>cking with a privacy first approach.
+            <div className="text-blue-500 text-4xl relative">LiTa<Badge variant="outline" className="absolute left-14 bottom-8 bg-purple-200">Active Development</Badge></div>
+            <div className="my-4">LiTa is a <span className="text-blue-600">Li</span>fe <span className="text-blue-600">T</span>r<span className="text-blue-600">a</span>cking app with a privacy first approach.
             Life tracking involves tracking elements of your life ranging from habits such as reading to 
             biodata such as steps taken and quality of sleep. In addition we also track user mood and in tandem
             the aim of this app will be to use machine learning to figure out trends between collected data and
