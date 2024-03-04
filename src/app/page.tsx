@@ -110,11 +110,11 @@ export default function Home() {
         <div className="flex flex-col-reverse max-w-[90%] md:flex-row justify-between mb-14">
           <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2">
             <Image
-              src="/tanstack.png"
+              src="/bookstore.png"
               alt="its a me"
               quality={100}
-              width={1781}
-              height={1002}
+              width={1920}
+              height={1080}
               className="rounded-md aspect-video w-[720px] shadow-2xl ring-1 ring-gray-900/10"
             />
           </div>
@@ -144,11 +144,11 @@ export default function Home() {
           </div>
           <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2">
             <Image
-              src="/tanstack.png"
+              src="/compiler.png"
               alt="its a me"
               quality={100}
-              width={1781}
-              height={1002}
+              width={1741}
+              height={805}
               className="rounded-md aspect-video w-[720px] shadow-2xl ring-1 ring-gray-900/10"
             />
           </div>
