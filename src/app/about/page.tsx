@@ -14,28 +14,27 @@ export default function About() {
           </h2>
         </div>
         <div className="grid max-w-[700px] items-center gap-4 text-center lg:grid-cols-2">
-          <div className="mx-auto rounded-lg overflow-hidden aspect-square w-full lg:aspect-none lg:h-[400px]">
-            <Image
-              src="/me.png"
-              alt="Profile Picture"
-              className="aspect-square rounded-full"
-              height="400"
-              width="400"
-            />
-          </div>
+          <div className="mx-auto w-full max-w-[400px] lg:max-w-none lg:h-[400px]">
+                <Image
+                  src="/e.png"
+                  alt="Profile Picture"
+                  className="w-full h-full object-cover rounded-full"
+                  height="400"
+                  width="400"
+                />
+              </div>
           <div className="space-y-4">
             <p className="text-gray-500 dark:text-gray-400">
               I&apos;m a cross platform developer, with a penchant for
               minimalist design. I love crafting dynamic user experiences and
-              solving problems with algorithms and code. Currently a senior at
-              FAST NUCES, with goals of going
-              <span>to infinity and beyond</span>
+              solving problems with algorithms and code. Currently an associate software engineer at
+              <a href="https://yavr.io" className="text-[#069b63]"> Yavrio</a>.
             </p>
-            <ul className="mx-auto grid gap-2 text-center sm:gap-4 md:grid-cols-2 ">
-              <Badge variant="outline">Cross Platform Development</Badge>
-              <Badge variant="outline">React / React Native</Badge>
-              <Badge variant="outline">Typescript Advocate</Badge>
-              <Badge variant="outline">Express / Flask</Badge>
+            <ul className="grid grid-cols-1 gap-2 text-center md:grid-cols-2 md:gap-4">
+              <Badge variant="outline" className="inline-flex items-center justify-center py-3 md:py-2">Cross Platform Development</Badge>
+              <Badge variant="outline" className="inline-flex items-center justify-center py-3 md:py-2">React / React Native</Badge>
+              <Badge variant="outline" className="inline-flex items-center justify-center py-3 md:py-2">Typescript {'>'} JavaScript</Badge>
+              <Badge variant="outline" className="inline-flex items-center justify-center py-3 md:py-2">Express / Flask</Badge>
             </ul>
           </div>
         </div>

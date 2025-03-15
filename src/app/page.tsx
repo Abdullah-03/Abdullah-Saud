@@ -20,9 +20,9 @@ export default function Home() {
           </div>
 
           <div className="mt-12 text-base md:text-lg px-4 italic">
-            I&apos;m an undergrad senior studying computer science at FAST
-            NUCES. I love building fullstack applications using Next.js, React,
-            and Express. When I&apos;m not on the lookout for the next best JS{" "}
+            I&apos;m an associate software engineer at <a href="https://yavr.io" className="text-[#069b63]"> Yavrio</a> where I integrate open banking with ERPs using Node, Express and Postgres. On the side,
+            I love building cross platform applications using <span className={"underline"}>React Native</span>.
+            When I&apos;m not on the lookout for the next best JS{" "}
             <a
               href="https://dayssincelastjavascriptframework.com/"
               className="underline text-blue-500"
@@ -30,13 +30,13 @@ export default function Home() {
               framework
             </a>{" "}
             I spend my time learning Go and building side projects using Python.
-            Currently working on a production android app using React Native.
+            Currently working on a production mobile app using React Native.
           </div>
         </div>
 
         <div className="mt-14 bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-full p-2">
           <Image
-            src="/me.png"
+            src="/e.png"
             alt="its a me"
             quality={100}
             width={977}
@@ -78,7 +78,7 @@ export default function Home() {
 
       <div className="flex flex-col mt-14 w-full items-center">
         <div className="font-bold text-6xl mb-14 underline">Projects</div>
-        <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
+        <div className="flex flex-col w-[90%] md:flex-row justify-between mb-14">
           <div className="font-semibold flex flex-col mt-10 md:w-[50%]">
             <div className="text-blue-500 text-4xl relative">LiTa<Badge variant="outline" className="absolute left-14 bottom-8 bg-purple-200">Active Development</Badge></div>
             <div className="my-4">LiTa is a <span className="text-blue-600">Li</span>fe <span className="text-blue-600">T</span>r<span className="text-blue-600">a</span>cking app with a privacy first approach.
@@ -107,50 +107,32 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col-reverse max-w-[90%] md:flex-row justify-between mb-14">
+        <div className="flex flex-col-reverse w-[90%] md:flex-row justify-between mb-14">
           <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2">
             <Image
-              src="/bookstore.png"
-              alt="its a me"
-              quality={100}
-              width={1920}
-              height={1080}
-              className="rounded-md aspect-video w-[720px] shadow-2xl ring-1 ring-gray-900/10"
+                src="/placeminder.png"
+                alt="its a me"
+                quality={100}
+                width={1480}
+                height={2740}
+                className="rounded-md w-[300px] shadow-2xl ring-1 ring-gray-900/10 m-auto p-5"
             />
           </div>
-          <div className="font-semibold flex flex-col mt-10 text-right">
-            <div className="text-blue-500 text-4xl">Bookstore</div>
-            <ul className="ml-2">
+          <div className="font-semibold flex flex-col mt-10 text-left md:w-[50%]">
+            <div className="text-blue-500 text-4xl">Placeminder</div>
+            <div className="my-4">
+            Location-aware tasks and reminders.<br/><br/>
+              Ever wanted your task keeper app to remind you something only when you reach or are already at a certain place, or perhaps you don't want your home screen filled with tasks that are not physically possible to do right away?
+              <br/><br/>For example, a reminder to grab a spare charger when you swing by the electronics store should only appear when you're nearby that store!
+            </div>
+              <ul className="ml-2">
               <li className="border-r-2 border-zinc-400 pr-2 my-2">
-                Frontend: Alpine.js, HTMX
+                Frontend: React Native, Redux, Maps API
               </li>
               <li className="border-r-2 border-zinc-400 pr-2 my-2">
-                Backend: Django, PostgreSQL
+                Backend: Nada (yay privacy!)
               </li>
             </ul>
-          </div>
-        </div>
-        <div className="flex flex-col max-w-[90%] md:flex-row justify-between mb-14">
-          <div className="font-semibold flex flex-col mt-10">
-            <div className="text-blue-500 text-4xl">Compiler</div>
-            <ul className="ml-2">
-              <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Roman Urdu Compiler
-              </li>
-              <li className="border-l-2 border-zinc-400 pl-2 my-2">
-                Written in C++
-              </li>
-            </ul>
-          </div>
-          <div className=" bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-md p-2">
-            <Image
-              src="/compiler.png"
-              alt="its a me"
-              quality={100}
-              width={1741}
-              height={805}
-              className="rounded-md aspect-video w-[720px] shadow-2xl ring-1 ring-gray-900/10"
-            />
           </div>
         </div>
       </div>
