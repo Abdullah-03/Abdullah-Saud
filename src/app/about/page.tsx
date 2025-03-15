@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid max-w-[700px] items-center gap-4 text-center lg:grid-cols-2">
           <div className="mx-auto w-full max-w-[400px] lg:max-w-none lg:h-[400px]">
                 <Image
-                  src="/e.png"
+                  src="/me.png"
                   alt="Profile Picture"
                   className="w-full h-full object-cover rounded-full"
                   height="400"

@@ -36,7 +36,7 @@ export default function Home() {
 
         <div className="mt-14 bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 rounded-full p-2">
           <Image
-            src="/e.png"
+            src="/me.png"
             alt="its a me"
             quality={100}
             width={977}
