@@ -122,8 +122,8 @@ export default function Home() {
             <div className="text-blue-500 text-4xl">Placeminder</div>
             <div className="my-4">
             Location-aware tasks and reminders.<br/><br/>
-              Ever wanted your task keeper app to remind you something only when you reach or are already at a certain place, or perhaps you don't want your home screen filled with tasks that are not physically possible to do right away?
-              <br/><br/>For example, a reminder to grab a spare charger when you swing by the electronics store should only appear when you're nearby that store!
+              Ever wanted your task keeper app to remind you something only when you reach or are already at a certain place, or perhaps you don&#39;t want your home screen filled with tasks that are not physically possible to do right away?
+              <br/><br/>For example, a reminder to grab a spare charger when you swing by the electronics store should only appear when you&#39;re nearby that store!
             </div>
               <ul className="ml-2">
               <li className="border-r-2 border-zinc-400 pr-2 my-2">
